@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Signal Arcade</title>
+    <style>
+      body {
+        background-color: #0b0b0c;
+        color: #e0e0e0;
+        font-family: 'Courier New', monospace;
+        text-align: center;
+        padding-top: 20%;
+      }
+
+      h1 {
+        animation: flicker 1.2s infinite alternate;
+        color: #e96fef;
+      }
+
+      @keyframes flicker {
+        0% { opacity: 1; }
+        50% { opacity: 0.3; }
+        100% { opacity: 1; }
+      }
+
+      p {
+        font-size: 1.2em;
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Signal Arcade</h1>
+    <p>The lost signal is flickering...</p>
+  </body>
+</html>
